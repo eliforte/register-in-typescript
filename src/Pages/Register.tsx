@@ -1,9 +1,10 @@
 import React from 'react';
 import Input from '../components/input';
+import { FormStyle } from './style';
 
 const Register: React.FC = () => {
   return (
-    <form>
+    <FormStyle>
       <h2>Cadastre-se</h2>
       <p>Preencha com seus dados para concluir os cadastro</p>
       <div>
@@ -18,7 +19,7 @@ const Register: React.FC = () => {
         <input type="checkbox" name="terms-and-politics" id="terms-and-politics" required/>
       </label>
       <button type="submit">Registrar</button>
-    </form>
+    </FormStyle>
   )
 }
 
