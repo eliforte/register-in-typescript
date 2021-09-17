@@ -1,4 +1,4 @@
-# Projeto criado para estudo de React com 
+# Projeto criado para estudo de React com Typescript
 
 ## Em processo de desenvolvimento
 
